@@ -1,6 +1,8 @@
 .dropdown{
     width: fit-content;
     position: relative;
+    text-align: left;
+    z-index: 1;
     &__selected{
         border-radius: 4px;
         background-color: #ffffff;
@@ -32,17 +34,19 @@
         background-color: #ffffff;
         border: solid 1px #cccccc;
         position: absolute;
+        top: 40px;
         width: 100%;
         h3{
             font-size: 14px;
-            padding: 5px;
-            cursor: pointer;
+            margin: 0px;
+            padding: 10px 5px;
+            cursor: pointer; 
             &:hover{
                 background-color: #cccccc;
             }
         }
         .active{
-            background-color: #009fff;
+            background-color: #009fffed;
         }
     }
 }
