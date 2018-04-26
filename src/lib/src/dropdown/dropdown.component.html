@@ -1,0 +1,8 @@
+<div class="dropdown {{addDropdownClass}}">
+  <div class="dropdown__selected" (click)="selectAnOption()">{{selectedOption}}
+      <i class="dropdown__selected__arrow"></i>
+  </div>
+  <div class="dropdown__list" *ngIf="dropdownList">
+    <h3 (click)="onClickOption(i)" *ngFor="let option of options;let i= index;" [ngClass]="{'active':selectedOption==option.label}">{{option.label}}</h3>
+  </div>
+</div>

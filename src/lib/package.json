@@ -1,0 +1,21 @@
+{
+  "name": "nrcm-dropdown",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "main": "./bundles/nrcm-dropdown.umd.js",
+  "es2015": "./esm2015/nrcm-dropdown.js",
+  "module": "./esm5/nrcm-dropdown.es5.js",
+  "typings": "./nrcm-dropdown.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/http": "^5.0.0"
+  }
+}
